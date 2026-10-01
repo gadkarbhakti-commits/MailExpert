@@ -4,15 +4,15 @@ MailExpert is an AI-powered web application that generates professional email re
 
 Technologies:
 
-Python
-FastAPI
-HTML
-CSS
-JavaScript
-Groq API
-Llama 3.3 70B
-Docker
-AWS Elastic Beanstalk
+1)Python
+2)FastAPI
+3)HTML
+4)CSS
+5)JavaScript
+6)Groq API
+7)Llama 3.3 70B
+8)Docker
+9)AWS Elastic Beanstalk
 
 Features:
 
