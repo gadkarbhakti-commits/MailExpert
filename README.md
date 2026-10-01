@@ -16,14 +16,14 @@ Technologies:
 
 Features:
 
-Email input
-Multiple tones
-Multiple response lengths
-AI-generated replies
-Streaming AI response
-Copy reply functionality
-Responsive web interface
-Cloud deployment
+1.Email input
+2.Multiple tones
+3.Multiple response lengths
+4.AI-generated replies
+5.Streaming AI response
+6.Copy reply functionality
+7.Responsive web interface
+8.Cloud deployment
 
 AWS URL:
 
@@ -31,7 +31,7 @@ http://mailexpert-env.eba-wzqthium.eu-north-1.elasticbeanstalk.com/
 
 Architecture:
 
-User
+User                                                                                              
   ↓
 Frontend
   ↓
