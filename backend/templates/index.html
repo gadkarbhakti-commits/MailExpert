@@ -1,1 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MailExpert - Email Reply Generator</title>
 
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>MailExpert</h1>
+    <p class="subtitle">
+        Generate professional email replies using AI
+    </p>
+
+    <textarea
+        id="emailInput"
+        placeholder="Paste the email here...">
+    </textarea>
+
+    <div class="options">
+
+        <select id="tone">
+
+            <option>Professional</option>
+
+            <option>Friendly</option>
+
+            <option>Formal</option>
+
+            <option>Apology</option>
+
+            <option>Thank You</option>
+
+            <option>Follow-up</option>
+
+        </select>
+
+        <select id="length">
+
+            <option>Short</option>
+
+            <option>Medium</option>
+
+            <option>Detailed</option>
+
+        </select>
+
+    </div>
+
+    <button id="generateBtn">
+        Generate Reply
+    </button>
+    <div id="loading" style="display:none;">
+    ⏳ AI is generating your reply...
+    </div>
+
+    <h2>Generated Reply</h2>
+
+    <div id="output">
+        Your AI reply will appear here...
+    </div>
+    <button id="copyBtn">📋 Copy Reply</button>
+</div>
+<div id="loading" class="loading" style="display: none;">
+    <div class="spinner"></div>
+    <p>🤖 AI is writing your reply...</p>
+</div>
+<button id="clearBtn">
+    🗑 Clear
+</button>
+
+<script src="/static/script.js"></script>
+
+</body>
+</html>
